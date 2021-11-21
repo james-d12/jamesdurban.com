@@ -28,6 +28,10 @@ body {
     text-align: center;
 }
 
+.container .item a {
+    text-decoration: none;
+}
+
 .section {
     margin-top: calc(1.5vw + 2.5vw);
     margin-bottom: calc(0.5vw + 2.5vw);
