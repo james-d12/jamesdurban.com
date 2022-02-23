@@ -37,7 +37,7 @@ const Hero = () => {
                             iconClass="fas fa-envelope-square fa-lg"
                         />
                     </div>
-                    <button className="m-10 text-xl px-6 py-2 bg-theme font-bold">View my projects</button>
+                    <a href="#projects" title="Go to hire"><button className="m-10 text-xl px-6 py-2 bg-theme font-bold"> View my projects </button></a>
                 </div>
             </div>
         </div>

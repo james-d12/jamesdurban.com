@@ -8,7 +8,7 @@ module.exports = {
         'theme': '#F2AA4CFF',
         'nav': '#404053',
         'projects': '#121C25',
-        'secondary': '#9191A4',
+        'secondary': '#121c25',
         'tertiary': '#0d131a',
         'badge': '#3F3F51',
         'input-border': '#565666',
