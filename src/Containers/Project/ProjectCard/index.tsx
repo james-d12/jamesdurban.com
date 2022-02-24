@@ -24,7 +24,7 @@ const ProjectCard: React.FC<Props> = ({ title, description, imageUrl, imageAlt, 
                 <div className="px-6 pt-4 pb-2">
                     {tags.map((tag, index) => (
                         <React.Fragment key={index}>
-                            <Badge title={tag} />
+                            <Badge>{tag}</Badge>
                         </React.Fragment>
                     ))}
                 </div>

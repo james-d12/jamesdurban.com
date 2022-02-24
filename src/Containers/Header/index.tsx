@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <header className="fixed top-0 left-0 right-0 py-4 z-50 bg-tertiary backdrop-blur">
+        <header className="fixed top-0 left-0 right-0 py-4 z-50 backdrop-blur">
             <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
                 <div className="text-2xl font-bold">
                     <a href="/" title="Go to homepage">

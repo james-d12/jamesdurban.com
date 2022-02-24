@@ -1,3 +1,4 @@
+import Link from "Components/Link";
 import Header from "Containers/Header";
 
 const NotFound: React.FC = () => {
@@ -13,9 +14,7 @@ const NotFound: React.FC = () => {
                             <span className="text-red-500">Oops!</span> Page not found
                         </h6>
 
-                        <a href="/" className="px-6 py-2 bg-theme font-bold text-2xl">
-                            Go home
-                        </a>
+                        <Link href="/" title="Go home"> Go Home </Link>
                     </div>
                 </div>
             </div>

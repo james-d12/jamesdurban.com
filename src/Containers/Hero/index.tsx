@@ -1,3 +1,4 @@
+import Link from "Components/Link";
 import IconLink from "Components/IconLink";
 
 const Hero = () => {
@@ -27,7 +28,7 @@ const Hero = () => {
                         <IconLink
                             title="Resume"
                             label="Open Resume"
-                            href={process.env.PUBLIC_URL + "/resume.pdf"}
+                            href={process.env.PUBLIC_URL + "/files/resume.pdf"}
                             iconClass="fas fa-file-alt fa-lg"
                         />
                         <IconLink
@@ -37,7 +38,7 @@ const Hero = () => {
                             iconClass="fas fa-envelope-square fa-lg"
                         />
                     </div>
-                    <a href="#projects" title="Go to hire"><button className="m-10 text-xl px-6 py-2 bg-theme font-bold"> View my projects </button></a>
+                    <Link title="Go to projects" href="#projects">View my projects</Link>
                 </div>
             </div>
         </div>

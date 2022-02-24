@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Hero from "Containers/Hero";
 import Header from "Containers/Header";
+import Skills from "Containers/Skills";
 import Project from "Containers/Project";
 import Footer from "Containers/Footer";
 import NotFound from "Containers/NotFound";
@@ -14,8 +15,11 @@ const App: React.FC = () => {
                 <Route path="/" element={
                     <>
                         <Header />
-                        <Hero />
-                        <Project />
+                        <main>
+                            <Hero />
+                            <Project />
+                            <Skills/>
+                        </main>
                         <Footer/>
                     </>
                 } />
