@@ -33,6 +33,8 @@ const Skills: React.FC = () => {
                 <Skill title="Python" src="python.svg"/>
                 <Skill title="Rust" src="rust.svg"/>
                 <Skill title="TypeScript" src="typescript.svg"/>
+                <Skill title="PowerShell" src="powershell.svg"/>
+                <Skill title="MUI" src="mui.svg"/>
             </div>
         </Section>
     )

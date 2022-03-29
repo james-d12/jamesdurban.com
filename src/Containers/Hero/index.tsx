@@ -10,7 +10,7 @@ const Hero = () => {
                         Hi, I'm James.
                     </h1>
                     <h2 className="font-normal text-2xl md:text-2xl lg:text-3xl">
-                        A software engineer currently working at Scott Brownrigg.
+                        A software engineer currently working at an Architecture firm.
                     </h2>
                     <div className="flex flex-nowrap mt-4">
                         <IconLink
