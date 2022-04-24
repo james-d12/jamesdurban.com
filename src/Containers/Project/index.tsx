@@ -11,12 +11,12 @@ const Project: React.FC = () => {
         >
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
                 <ProjectCard
-                    title="Budget Planner"
+                    title="Panda"
                     description="A budget planning tool to assist the finance team and directors in creating, reviewing and managing budgets."
                     imageUrl="https://previews.123rf.com/images/nadger/nadger1110/nadger111000008/10923495-project-planning.jpg"
                     imageAlt="Mountain"
                     tags={["Web Development", "Fullstack", "React"]}
-                    link={"/projects/budget-planner"}
+                    link={"/projects/panda"}
                 />
                 <ProjectCard
                     title="Sales Order Book"
