@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -25,12 +26,12 @@ html, body {
 }
 
 .secondary-title::before {
-    content: "";
+    content: '';
     @apply block w-12 h-2 bg-theme mb-1;
 }
 
 .backdrop-blur {
-    background-color: rgba(bg-theme, .9);
+    background-color: rgba(bg-theme, 0.9);
 }
 
 .section-paragraph {
@@ -42,7 +43,7 @@ html, body {
 }
 
 [id] {
-scroll-margin-top: 100px;
+    scroll-margin-top: 100px;
 }
 
 .left-percentage {

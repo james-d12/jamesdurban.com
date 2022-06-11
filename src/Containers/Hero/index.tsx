@@ -1,5 +1,5 @@
-import Link from "Components/Link";
-import IconLink from "Components/IconLink";
+import Link from 'Components/Link'
+import IconLink from 'Components/IconLink'
 
 const Hero = () => {
     return (
@@ -10,7 +10,8 @@ const Hero = () => {
                         Hi, I'm James.
                     </h1>
                     <h2 className="font-normal text-2xl md:text-2xl lg:text-3xl">
-                        A software engineer currently working at an Architecture firm.
+                        A software engineer currently working at an Architecture
+                        firm.
                     </h2>
                     <div className="flex flex-nowrap mt-4">
                         <IconLink
@@ -28,7 +29,7 @@ const Hero = () => {
                         <IconLink
                             title="Resume"
                             label="Open Resume"
-                            href={process.env.PUBLIC_URL + "/files/resume.pdf"}
+                            href={process.env.PUBLIC_URL + '/files/resume.pdf'}
                             iconClass="fas fa-file-alt fa-lg"
                         />
                         <IconLink
@@ -38,11 +39,13 @@ const Hero = () => {
                             iconClass="fas fa-envelope-square fa-lg"
                         />
                     </div>
-                    <Link title="Go to projects" href="#projects">View my projects</Link>
+                    <Link title="Go to projects" href="#projects">
+                        View my projects
+                    </Link>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Hero;
+export default Hero

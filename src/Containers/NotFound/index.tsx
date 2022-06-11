@@ -1,4 +1,4 @@
-import Link from "Components/Link";
+import Link from 'Components/Link'
 
 const NotFound: React.FC = () => {
     return (
@@ -9,9 +9,13 @@ const NotFound: React.FC = () => {
                         <h1 className="font-bold text-theme text-9xl">404</h1>
 
                         <h6 className="mb-2 text-2xl font-bold text-center text-white md:text-3xl">
-                            <span className="text-red-500">Oops!</span> Page not found
+                            <span className="text-red-500">Oops!</span> Page not
+                            found
                         </h6>
-                        <Link href="/" title="Go home"> Go Home </Link>
+                        <Link href="/" title="Go home">
+                            {' '}
+                            Go Home{' '}
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -19,4 +23,4 @@ const NotFound: React.FC = () => {
     )
 }
 
-export default NotFound;
+export default NotFound

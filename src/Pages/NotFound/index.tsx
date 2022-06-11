@@ -1,9 +1,7 @@
-import NotFound from "Containers/NotFound";
+import NotFound from 'Containers/NotFound'
 
 const NotFoundPage: React.FC = () => {
-    return (
-        <NotFound/>
-    )
+    return <NotFound />
 }
 
 export default NotFoundPage

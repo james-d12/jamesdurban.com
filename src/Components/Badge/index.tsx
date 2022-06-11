@@ -10,4 +10,4 @@ const Badge: React.FC<Props> = ({ children }) => {
     )
 }
 
-export default Badge;
+export default Badge
