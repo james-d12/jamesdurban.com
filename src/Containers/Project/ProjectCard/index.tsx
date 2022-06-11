@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState, Fragment } from 'react'
 import Badge from 'Components/Badge'
 
 interface Props {
@@ -16,8 +16,11 @@ const ProjectCard: React.FC<Props> = ({
     imageAlt,
     tags,
 }) => {
+    const [show, setShow] = useState(false)
+    const handleSetShow = () => { setShow(!show) }
+
     return (
-        <div className="transform transition duration-350 hover:scale-105 hover:border-1 hover:border-theme">
+        <button onClick={handleSetShow} className="transform transition duration-350 hover:scale-105 hover:border-1 hover:border-theme">
             <div className="max-w-screen rounded overflow-hidden shadow-lg bg-tertiary">
                 <img className="w-full" src={imageUrl} alt={imageAlt} />
                 <div className="px-6 py-4">
@@ -28,13 +31,13 @@ const ProjectCard: React.FC<Props> = ({
                 </div>
                 <div className="px-6 pt-4 pb-2">
                     {tags.map((tag, index) => (
-                        <React.Fragment key={index}>
+                        <Fragment key={index}>
                             <Badge>{tag}</Badge>
-                        </React.Fragment>
+                        </Fragment>
                     ))}
                 </div>
             </div>
-        </div>
+        </button>
     )
 }
 
