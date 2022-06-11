@@ -7,12 +7,11 @@ interface Props {
     imageUrl: string;
     imageAlt: string;
     tags: string[]
-    link: string;
 }
 
-const ProjectCard: React.FC<Props> = ({ title, description, imageUrl, imageAlt, tags, link }) => {
+const ProjectCard: React.FC<Props> = ({ title, description, imageUrl, imageAlt, tags }) => {
     return (
-        <a href={link} className="transform transition duration-350 hover:scale-105 hover:border-1 hover:border-theme">
+        <div className="transform transition duration-350 hover:scale-105 hover:border-1 hover:border-theme">
             <div className="max-w-screen rounded overflow-hidden shadow-lg bg-tertiary">
                 <img className="w-full" src={imageUrl} alt={imageAlt} />
                 <div className="px-6 py-4">
@@ -29,7 +28,7 @@ const ProjectCard: React.FC<Props> = ({ title, description, imageUrl, imageAlt, 
                     ))}
                 </div>
             </div>
-        </a>
+        </div>
     )
 }
 

@@ -7,7 +7,6 @@ const App: React.FC = () => {
             <Routes>
                 <Route path='*' element={<Pages.NotFoundPage />} />
                 <Route path="/" element={<Pages.HomePage />} />
-                <Route path="/projects/panda" element={<Pages.PandaPage/>} />
             </Routes>
         </Router>
     )

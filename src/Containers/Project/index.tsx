@@ -6,8 +6,10 @@ const Project: React.FC = () => {
         <Section
             id="projects"
             title="Projects"
-            description="I have built many projects during my professional and hobbyist time as a software engineer ranging from fullstack
-            bespoke web applications to"
+            description="
+            I have built many projects during my professional and hobbyist time as a software engineer ranging from fullstack
+            bespoke web applications to low level mathematical libraries.
+            "
         >
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
                 <ProjectCard
@@ -16,7 +18,6 @@ const Project: React.FC = () => {
                     imageUrl="https://previews.123rf.com/images/nadger/nadger1110/nadger111000008/10923495-project-planning.jpg"
                     imageAlt="Mountain"
                     tags={["Web Development", "Fullstack", "React"]}
-                    link={"/projects/panda"}
                 />
                 <ProjectCard
                     title="Sales Order Book"
@@ -24,7 +25,6 @@ const Project: React.FC = () => {
                     imageUrl="https://media.istockphoto.com/photos/business-audits-using-a-calculator-financial-data-investment-fund-at-picture-id1129810557?k=20&m=1129810557&s=612x612&w=0&h=TzJGKMmv6MtDvdKaikm4kUoTVUtWVmBVPA-qg740NZ4="
                     imageAlt="Mountain"
                     tags={["Web Development", "Fullstack", "JavaScript"]}
-                    link={"/projects/sales-order-book"}
                 />
                 <ProjectCard
                     title="HR Management Tool"
@@ -32,7 +32,6 @@ const Project: React.FC = () => {
                     imageUrl="https://media.istockphoto.com/photos/human-resource-management-and-teamup-concept-picture-id1199822089?k=20&m=1199822089&s=612x612&w=0&h=SZjP5FCTv6c_dBHT1-v7DUc3jlbjStdX7m-SRu-uUd4="
                     imageAlt="Mountain"
                     tags={["Web Development", "Fullstack", "React"]}
-                    link={"/projects/hr-management-tool"}
                 />
                 <ProjectCard
                     title="Atomic"
@@ -40,7 +39,6 @@ const Project: React.FC = () => {
                     imageUrl="https://media.istockphoto.com/photos/books-picture-id949118068?k=20&m=949118068&s=612x612&w=0&h=e8tiaCdluEA9IS_I7ytStcx--toLbovf3U74v-LfNAk="
                     imageAlt="Mountain"
                     tags={["Library", "C++"]}
-                    link={"/projects/atomic"}
                 />
                 <ProjectCard
                     title="Agnostic Package Manager"
@@ -48,7 +46,6 @@ const Project: React.FC = () => {
                     imageUrl="https://st2.depositphotos.com/1001877/7125/i/600/depositphotos_71255577-stock-photo-delivery-concept-boxes-on-pallet.jpg"
                     imageAlt="Mountain"
                     tags={["Web Development", "Fullstack"]}
-                    link={"/projects/agnostic-package-manager"}
                 />
                 <ProjectCard
                     title="Dokky"
@@ -56,7 +53,6 @@ const Project: React.FC = () => {
                     imageUrl="https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                     imageAlt="Mountain"
                     tags={["Python", "Documentation"]}
-                    link={"/projects/agnostic-package-manager"}
                 />
             </div>
         </Section>

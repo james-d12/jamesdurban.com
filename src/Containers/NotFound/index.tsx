@@ -1,10 +1,8 @@
 import Link from "Components/Link";
-import Header from "Containers/Header";
 
 const NotFound: React.FC = () => {
     return (
         <>
-            <Header />
             <div className="flex items-center justify-center w-screen h-screen bg-body">
                 <div className="px-40 py-20 rounded-md shadow-sm">
                     <div className="flex flex-col items-center">
@@ -13,7 +11,6 @@ const NotFound: React.FC = () => {
                         <h6 className="mb-2 text-2xl font-bold text-center text-white md:text-3xl">
                             <span className="text-red-500">Oops!</span> Page not found
                         </h6>
-
                         <Link href="/" title="Go home"> Go Home </Link>
                     </div>
                 </div>
