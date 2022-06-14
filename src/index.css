@@ -35,7 +35,7 @@ body {
 }
 
 .section-paragraph {
-    @apply text-secondary my-6 w-full max-w-full text-white text-xl;
+    @apply text-secondary my-6 w-full max-w-full text-white text-lg;
 }
 
 .badge {
@@ -60,7 +60,7 @@ body {
 
 .selected-circle {
     @apply border-theme bg-theme;
-}
+}`
 
 .nav-dot:hover span {
     opacity: 1;

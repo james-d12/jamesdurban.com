@@ -1,27 +1,28 @@
+import HeaderLink from './HeaderLink'
+
 const Header = () => {
     return (
         <header className="fixed top-0 left-0 right-0 py-4 z-50 backdrop-blur">
             <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
                 <div className="text-2xl font-bold">
-                    <a href="/" title="Go to homepage">
-                        James Durban
-                    </a>
+                    <HeaderLink href="/" title="Go to homepage">
+                        {' '}
+                        James Durban{' '}
+                    </HeaderLink>
                 </div>
                 <div className="hidden md:flex space-x-12 items-center text-xl">
-                    <a href="#projects" title="Go to projects">
-                        Projects
-                    </a>
-                    <a href="#skills" title="Go to skills">
-                        Skills
-                    </a>
-                    <a href="#experience" title="Go to experience">
-                        Experience
-                    </a>
-                    <a href="#hire" title="Go to hire">
-                        <button className="px-6 py-2 bg-theme font-bold rounded">
-                            Contact me
-                        </button>
-                    </a>
+                    <HeaderLink href="#projects" title="Go to projects">
+                        {' '}
+                        Projects{' '}
+                    </HeaderLink>
+                    <HeaderLink href="#skills" title="Go to projects">
+                        {' '}
+                        Skills{' '}
+                    </HeaderLink>
+                    <button className="px-6 py-2 bg-theme font-bold rounded">
+                        {' '}
+                        Contact me{' '}
+                    </button>
                 </div>
                 <div className="md:hidden">
                     <svg
