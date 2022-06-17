@@ -2,66 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
+html, body {
     scroll-behavior: smooth;
-}
-
-.left-50 {
-    left: 50%;
-}
-.right-50 {
-    right: 50%;
-}
-.top-50 {
-    top: 50%;
-}
-
-.-z-1 {
-    z-index: -1;
-}
-
-.secondary-title {
-    @apply text-4xl font-bold;
-}
-
-.secondary-title::before {
-    content: '';
-    @apply block w-12 h-2 bg-theme mb-1;
+    @apply bg-primary text-white font-poppins
 }
 
 .backdrop-blur {
     background-color: rgba(bg-theme, 0.9);
 }
 
+.header-list {
+    list-style-type: decimal-leading-zero;
+    @apply hidden md:flex space-x-12 lg:space-x-24 items-center text-xl
+}
+
+.header-list li::marker {
+    @apply text-secondary
+}
+
+.hero {
+    @apply container flex justify-between items-center mx-auto px-8 lg:px-24 w-full h-screen
+}
+
+.hero-link {
+    @apply m-5 text-4xl hover:text-secondary
+}
+
+.hero-title {
+    @apply text-5xl md:text-6xl lg:text-7xl font-bold my-4
+}
+
+.hero-social {
+    transition: all;
+    transition-duration: 250ms;
+    @apply text-white text-4xl
+}
+
+.hero-social:hover {
+    transform: scale(1.15);
+}
+
+.section {
+    @apply container p-28 mb-12 flex items-center mx-auto px-8 lg:px-24 w-full
+}
+
+.section-title {
+    @apply text-4xl md:text-5xl font-bold mb-6;
+}
+
+.section-title::before {
+    content: '';
+    @apply block w-16 h-2 bg-secondary mb-1;
+}
+
 .section-paragraph {
-    @apply text-secondary my-6 w-full max-w-full text-white text-lg;
+    @apply text-sm md:text-xl my-6 w-full max-w-full text-white;
 }
 
-.badge {
-    @apply px-4 py-2 text-sm rounded bg-badge;
+.project {
+    transition: all;
+    transition-duration: 250ms;
 }
 
-[id] {
-    scroll-margin-top: 100px;
+.project:hover {
+    transform: scale(1.05);
 }
 
-.left-percentage {
-    left: 5%;
+.project-title {
+    @apply font-bold text-2xl mb-2 text-secondary
 }
 
-.h-screen-partial {
-    height: 80vh;
+.project-badge {
+    @apply inline-block px-3 py-1 text-sm font-bold text-white mr-2 mb-2
 }
 
-.nav-dot {
-    transition: background 200ms, border-color 200ms;
+.project-container {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6
 }
 
-.selected-circle {
-    @apply border-theme bg-theme;
-}`
-
-.nav-dot:hover span {
-    opacity: 1;
+.project-modal-content {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-2 m-4 pb-8
 }

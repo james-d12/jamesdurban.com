@@ -1,23 +1,20 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    extend: {
-      colors: {
-        'body': '#101820FF',
-        'selected-text': '#EBB570',
-        'theme': '#F2AA4CFF',
-        'nav': '#404053',
-        'projects': '#121C25',
-        'secondary': '#121c25',
-        'tertiary': '#0d131a',
-        'badge': '#3F3F51',
-        'input-border': '#565666',
-        'input': '#2A2A35'
-      },
-      fontFamily: {
-        'poppins': ["'Poppins'", 'sans-serif']
-      }
+    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+    theme: {
+        extend: {
+            colors: {
+                primary: '#101820',
+                secondary: '#f2aa4cff',
+                tertiary: '#080C10',
+                quaternary: '#d1d5db',
+            },
+            fontFamily: {
+                poppins: ["'Poppins'", 'sans-serif'],
+            },
+        },
     },
-  },
-  plugins: [],
+    variants: {
+        extend: {},
+    },
+    plugins: [],
 }

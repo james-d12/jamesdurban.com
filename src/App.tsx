@@ -1,15 +1,17 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import * as Pages from 'Pages'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Projects from './components/Projects'
+import Footer from './components/Footer'
 
-const App: React.FC = () => {
+export default function App() {
     return (
-        <Router>
-            <Routes>
-                <Route path="*" element={<Pages.NotFoundPage />} />
-                <Route path="/" element={<Pages.HomePage />} />
-            </Routes>
-        </Router>
+        <>
+            <Header />
+            <main>
+                <Hero />
+                <Projects />
+            </main>
+            <Footer />
+        </>
     )
 }
-
-export default App
