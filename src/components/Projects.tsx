@@ -33,7 +33,7 @@ export default function Projects() {
                         <div class="relative p-4 w-full max-w-7xl h-full md:h-auto">
                             <div class="relative rounded-lg shadow bg-primary border-2 border-secondary">
                                 <div class="flex justify-between items-center p-5 rounded-t">
-                                    <h3 class="text-4xl font-medium font-bold text-secondary">Panda</h3>
+                                    <h3 class="text-4xl font-bold text-secondary">Panda</h3>
                                     <button
                                         type="button"
                                         class="rounded-lg text-sm p-1.5 ml-auto hover:bg-gray-600"
