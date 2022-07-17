@@ -4,11 +4,11 @@ specifiers:
   autoprefixer: ^10.4.7
   gh-pages: ^4.0.0
   postcss: ^8.4.14
-  solid-js: ^1.4.2
-  tailwindcss: ^3.1.3
-  typescript: ^4.6.4
-  vite: ^2.9.9
-  vite-plugin-solid: ^2.2.6
+  solid-js: ^1.4.7
+  tailwindcss: ^3.1.6
+  typescript: ^4.7.4
+  vite: ^3.0.0
+  vite-plugin-solid: ^2.3.0
 
 dependencies:
   solid-js: 1.4.7
@@ -19,8 +19,8 @@ devDependencies:
   postcss: 8.4.14
   tailwindcss: 3.1.6
   typescript: 4.7.4
-  vite: 2.9.14
-  vite-plugin-solid: 2.2.6
+  vite: 3.0.0
+  vite-plugin-solid: 2.3.0_solid-js@1.4.7+vite@3.0.0
 
 packages:
 
@@ -454,7 +454,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.2
-      caniuse-lite: 1.0.30001366
+      caniuse-lite: 1.0.30001367
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -511,8 +511,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001366
-      electron-to-chromium: 1.4.189
+      caniuse-lite: 1.0.30001367
+      electron-to-chromium: 1.4.192
       node-releases: 2.0.6
       update-browserslist-db: 1.0.4_browserslist@4.21.2
     dev: true
@@ -522,8 +522,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite/1.0.30001366:
-    resolution: {integrity: sha512-yy7XLWCubDobokgzudpkKux8e0UOOnLHE6mlNJBzT3lZJz6s5atSEzjoL+fsCPkI0G8MP5uVdDx1ur/fXEWkZA==}
+  /caniuse-lite/1.0.30001367:
+    resolution: {integrity: sha512-XDgbeOHfifWV3GEES2B8rtsrADx4Jf+juKX2SICJcaUhjYBO3bR96kvEIHa15VU6ohtOhBZuPGGYGbXMRn0NCw==}
     dev: true
 
   /chalk/2.4.2:
@@ -622,8 +622,8 @@ packages:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
     dev: true
 
-  /electron-to-chromium/1.4.189:
-    resolution: {integrity: sha512-dQ6Zn4ll2NofGtxPXaDfY2laIa6NyCQdqXYHdwH90GJQW0LpJJib0ZU/ERtbb0XkBEmUD2eJtagbOie3pdMiPg==}
+  /electron-to-chromium/1.4.192:
+    resolution: {integrity: sha512-8nCXyIQY9An88NXAp+PuPy5h3/w5ZY7Iu2lag65Q0XREprcat5F8gKhoHsBUnQcFuCRnmevpR8yEBYRU3d2HDw==}
     dev: true
 
   /email-addresses/3.1.0:
@@ -1346,8 +1346,8 @@ packages:
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: true
 
-  /rollup/2.76.0:
-    resolution: {integrity: sha512-9jwRIEY1jOzKLj3nsY/yot41r19ITdQrhs+q3ggNWhr9TQgduHqANvPpS32RNpzGklJu3G1AJfvlZLi/6wFgWA==}
+  /rollup/2.77.0:
+    resolution: {integrity: sha512-vL8xjY4yOQEw79DvyXLijhnhh+R/O9zpF/LEgkCebZFtb6ELeN9H3/2T0r8+mp+fFTBHZ5qGpOpW2ela2zRt3g==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -1487,8 +1487,11 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-solid/2.2.6:
-    resolution: {integrity: sha512-J1RnmqkZZJSNYDW7vZj0giKKHLWGr9tS/gxR70WDSTYfhyXrgukbZdIfSEFbtrsg8ZiQ2t2zXcvkWoeefenqKw==}
+  /vite-plugin-solid/2.3.0_solid-js@1.4.7+vite@3.0.0:
+    resolution: {integrity: sha512-N2sa54C3UZC2nN5vpj5o6YP+XdIAZW6n6xv8OasxNAcAJPFeZT7EOVvumL0V4c8hBz1yuYniMWdESY8807fVSg==}
+    peerDependencies:
+      solid-js: ^1.3.17
+      vite: ^3.0.0
     dependencies:
       '@babel/core': 7.18.6
       '@babel/preset-typescript': 7.18.6_@babel+core@7.18.6
@@ -1496,22 +1499,20 @@ packages:
       merge-anything: 5.0.2
       solid-js: 1.4.7
       solid-refresh: 0.4.1_solid-js@1.4.7
-      vite: 2.9.14
+      vite: 3.0.0
     transitivePeerDependencies:
-      - less
-      - sass
-      - stylus
       - supports-color
     dev: true
 
-  /vite/2.9.14:
-    resolution: {integrity: sha512-P/UCjSpSMcE54r4mPak55hWAZPlyfS369svib/gpmz8/01L822lMPOJ/RYW6tLCe1RPvMvOsJ17erf55bKp4Hw==}
-    engines: {node: '>=12.2.0'}
+  /vite/3.0.0:
+    resolution: {integrity: sha512-M7phQhY3+fRZa0H+1WzI6N+/onruwPTBTMvaj7TzgZ0v2TE+N2sdLKxJOfOv9CckDWt5C4HmyQP81xB4dwRKzA==}
+    engines: {node: '>=14.18.0'}
     hasBin: true
     peerDependencies:
       less: '*'
       sass: '*'
       stylus: '*'
+      terser: ^5.4.0
     peerDependenciesMeta:
       less:
         optional: true
@@ -1519,11 +1520,13 @@ packages:
         optional: true
       stylus:
         optional: true
+      terser:
+        optional: true
     dependencies:
       esbuild: 0.14.49
       postcss: 8.4.14
       resolve: 1.22.1
-      rollup: 2.76.0
+      rollup: 2.77.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
