@@ -50,7 +50,7 @@ jobs:
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.SSHKEY }}
         with:
-          source: "./dist/"
+          source: "./dist/*"
           target: "/var/www/test"
        
       - uses: appleboy/ssh-action@master
