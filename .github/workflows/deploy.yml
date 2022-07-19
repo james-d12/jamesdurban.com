@@ -52,6 +52,7 @@ jobs:
         with:
           source: "./dist/*"
           target: "/var/www/test"
+          strip_components: 1
        
       - uses: appleboy/ssh-action@master
         name: Executing remote command
