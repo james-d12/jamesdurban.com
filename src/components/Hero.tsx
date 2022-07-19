@@ -4,13 +4,12 @@ export default function Hero() {
             <section class="w-full">
                 <div class="flex flex-col justify-left items-left md:my-36">
                     <h1 class="text-2xl my-1 ml-1 text-secondary">Hi, my name is</h1>
-                    <h1 class="hero-title">James D.</h1>
+                    <h1 class="hero-title">James Durban.</h1>
                     <h2 class="font-normal text-md md:text-2xl lg:text-2xl text-quaternary">
                         I'm a software engineer currently working at{' '}
                         <a class="underline text-secondary" href="https://www.scottbrownrigg.com" target="_blank">
                             Scott Brownrigg
-                        </a>
-                        {" "}
+                        </a>{' '}
                         developing web applications and automating key workflows within the business.
                     </h2>
                     <div class="flex justify-left mt-8 gap-8">
