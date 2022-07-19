@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html,
+body {
     scroll-behavior: smooth;
-    @apply bg-primary text-white font-poppins
+    @apply bg-primary text-white font-poppins;
 }
 
 .backdrop-blur {
@@ -13,29 +14,29 @@ html, body {
 
 .header-list {
     list-style-type: decimal-leading-zero;
-    @apply hidden md:flex space-x-12 lg:space-x-24 items-center text-xl
+    @apply hidden md:flex space-x-12 lg:space-x-24 items-center text-xl;
 }
 
 .header-list li::marker {
-    @apply text-secondary
+    @apply text-secondary;
 }
 
 .hero {
-    @apply container flex justify-between items-center mx-auto px-8 lg:px-24 w-full h-screen
+    @apply container flex justify-between items-center mx-auto px-8 lg:px-24 w-full h-screen;
 }
 
 .hero-link {
-    @apply m-5 text-4xl hover:text-secondary
+    @apply m-5 text-4xl hover:text-secondary;
 }
 
 .hero-title {
-    @apply text-5xl md:text-6xl lg:text-7xl font-bold my-4
+    @apply text-5xl md:text-6xl lg:text-7xl font-bold my-4;
 }
 
 .hero-social {
     transition: all;
     transition-duration: 250ms;
-    @apply text-white text-4xl
+    @apply text-white text-4xl;
 }
 
 .hero-social:hover {
@@ -43,7 +44,7 @@ html, body {
 }
 
 .section {
-    @apply container p-28 mb-12 flex items-center mx-auto px-8 lg:px-24 w-full
+    @apply container p-28 mb-12 flex items-center mx-auto px-8 lg:px-24 w-full;
 }
 
 .section-title {
@@ -69,17 +70,17 @@ html, body {
 }
 
 .project-title {
-    @apply font-bold text-2xl mb-2 text-secondary
+    @apply font-bold text-2xl mb-2 text-secondary;
 }
 
 .project-badge {
-    @apply inline-block px-3 py-1 text-sm font-bold text-white mr-2 mb-2
+    @apply inline-block px-3 py-1 text-sm font-bold text-white mr-2 mb-2;
 }
 
 .project-container {
-    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6;
 }
 
 .project-modal-content {
-    @apply grid grid-cols-1 md:grid-cols-2 gap-2 m-4 pb-8
+    @apply grid grid-cols-1 md:grid-cols-2 gap-2 m-4 pb-8;
 }

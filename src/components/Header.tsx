@@ -21,9 +21,19 @@ export default function Header() {
                         </a>
                     </li>
                     <li>
-                        <a class="hover:text-secondary" href="#" title="Go to COntact">
+                        <a class="hover:text-secondary" href="#" title="Go to Contact">
                             {' '}
                             Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-secondary"
+                            href="https://notes.jamesdurban.com"
+                            title="Go to my Digital Garden"
+                        >
+                            {' '}
+                            Digital Garden
                         </a>
                     </li>
                 </ol>
