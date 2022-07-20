@@ -12,12 +12,12 @@ import TypeScriptImage from '../assets/icons/typescript.svg'
 import PowerShellImage from '../assets/icons/powershell.svg'
 import MUIImage from '../assets/icons/mui.svg'
 
-interface SkillIconType {
+interface SkillIconProps {
     src: string
     title: string
 }
 
-export function SkillIcon({ src, title }: SkillIconType) {
+export function SkillIcon({ src, title }: SkillIconProps) {
     return (
         <div class="grid grid-rows-1 justify-center items-center text-center">
             <img title={title} alt={title} width="150" height="150" src={src} />
