@@ -69,6 +69,11 @@ body {
     transform: scale(1.05);
 }
 
+.project-modal {
+    backdrop-filter: blur(2px);
+    @apply justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none;
+}
+
 .project-title {
     @apply font-bold text-2xl mb-2 text-secondary;
 }
@@ -83,4 +88,8 @@ body {
 
 .project-modal-content {
     @apply grid grid-cols-1 md:grid-cols-2 gap-2 m-4 pb-8;
+}
+
+.skill-icon {
+    @apply grid grid-rows-1 justify-center items-center text-center;
 }

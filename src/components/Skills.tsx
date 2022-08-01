@@ -19,7 +19,7 @@ interface SkillIconProps {
 
 export function SkillIcon({ src, title }: SkillIconProps) {
     return (
-        <div class="grid grid-rows-1 justify-center items-center text-center">
+        <div class="skill-icon">
             <img title={title} alt={title} width="150" height="150" src={src} />
             <h1 class="font-bold text-3xl">{title}</h1>
         </div>
