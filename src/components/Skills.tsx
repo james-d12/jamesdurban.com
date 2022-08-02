@@ -32,7 +32,8 @@ export default function Skills() {
             <section class="w-full">
                 <h2 class="section-title">Skills</h2>
                 <p class="section-paragraph text-quaternary">
-                    I have professional and hobbyist experience in a large variety of tools and languages.
+                    I have professional and hobbyist experience in a large variety of tools and languages. Below is a
+                    non exhaustive list of my most used technologies.
                 </p>
 
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mt-6">

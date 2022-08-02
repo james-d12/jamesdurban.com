@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <header class="fixed top-0 left-0 right-0 py-6 px-10 z-50 backdrop-blur border-b-4 border-secondary">
+        <header class="fixed top-0 left-0 right-0 py-6 px-4 z-50 backdrop-blur border-b-4 border-secondary">
             <div class="container flex justify-between items-center mx-auto w-full">
                 <div class="text-2xl font-bold">
                     <a class="hover:text-secondary" href="#" title="Go to homepage">
@@ -18,12 +18,6 @@ export default function Header() {
                         <a class="hover:text-secondary" href="#skills" title="Go to projects">
                             {' '}
                             Skills{' '}
-                        </a>
-                    </li>
-                    <li>
-                        <a class="hover:text-secondary" href="#" title="Go to Contact">
-                            {' '}
-                            Contact
                         </a>
                     </li>
                     <li>
