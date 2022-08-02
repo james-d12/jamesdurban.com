@@ -14,7 +14,7 @@ export default function Hero() {
                     </h2>
                     <div class="flex justify-left mt-8 gap-8">
                         <a
-                            id="GitHub Link"
+                            id="GitHub Hero Link"
                             class="hero-social"
                             title="GitHub Profile"
                             aria-label="Go to GitHub Profile"
@@ -25,7 +25,7 @@ export default function Hero() {
                             <i class="fa-brands fa-github fa-lg"></i>
                         </a>
                         <a
-                            id="Linkedin Link"
+                            id="Linkedin Hero Link"
                             class="hero-social"
                             title="LinkedIn Profile"
                             aria-label="Go to LinkedIn Profile"
@@ -36,7 +36,7 @@ export default function Hero() {
                             <i class="fa-brands fa-linkedin fa-lg"></i>
                         </a>
                         <a
-                            id="GitLab Link"
+                            id="GitLab Hero Link"
                             class="hero-social"
                             title="GitLab Profile"
                             aria-label="Go to GitLab Profile"
@@ -47,7 +47,7 @@ export default function Hero() {
                             <i class="fa-brands fa-gitlab fa-lg"></i>
                         </a>
                         <a
-                            id="Email Link"
+                            id="Email Hero Link"
                             class="hero-social"
                             title="Email"
                             aria-label="Email"

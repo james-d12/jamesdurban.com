@@ -3,7 +3,7 @@ export default function Footer() {
         <footer class="text-center text-white">
             <div class="flex justify-center mt-4 gap-2">
                 <a
-                    id="GitHub Link"
+                    id="GitHub Footer Link"
                     class="footer-social"
                     title="GitHub Profile"
                     aria-label="Go to GitHub Profile"
@@ -14,7 +14,7 @@ export default function Footer() {
                     <i class="fa-brands fa-github fa-lg"></i>
                 </a>
                 <a
-                    id="Linkedin Link"
+                    id="Linkedin Footer Link"
                     class="footer-social"
                     title="LinkedIn Profile"
                     aria-label="Go to LinkedIn Profile"
@@ -25,7 +25,7 @@ export default function Footer() {
                     <i class="fa-brands fa-linkedin fa-lg"></i>
                 </a>
                 <a
-                    id="GitLab Link"
+                    id="GitLab Footer Link"
                     class="footer-social"
                     title="GitLab Profile"
                     aria-label="Go to GitLab Profile"
@@ -36,7 +36,7 @@ export default function Footer() {
                     <i class="fa-brands fa-gitlab fa-lg"></i>
                 </a>
                 <a
-                    id="Email Link"
+                    id="Email Footer Link"
                     class="footer-social"
                     title="Email"
                     aria-label="Email"

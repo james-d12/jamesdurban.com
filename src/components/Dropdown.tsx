@@ -6,6 +6,7 @@ export default function Dropdown() {
                 data-dropdown-toggle="dropdown"
                 class="text-white focus:ring-4 focus:outline-none focus:ring-gray-500 font-medium rounded text-sm px-4 py-2.5 text-center inline-flex items-center"
                 type="button"
+                aria-label="Dropdown Menu"
             >
                 <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
