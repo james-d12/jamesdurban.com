@@ -29,7 +29,7 @@ export default function Hero() {
                             class="hero-social"
                             title="LinkedIn Profile"
                             aria-label="Go to LinkedIn Profile"
-                            href=""
+                            href="https://www.linkedin.com/in/james-durban"
                             target="_blank"
                             rel="noreferrer"
                         >

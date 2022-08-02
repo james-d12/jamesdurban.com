@@ -10,14 +10,12 @@ export default function Header() {
                 <ol class="header-list">
                     <li>
                         <a class="hover:text-secondary" href="#projects" title="Go to projects">
-                            {' '}
-                            Projects{' '}
+                            Projects
                         </a>
                     </li>
                     <li>
-                        <a class="hover:text-secondary" href="#skills" title="Go to projects">
-                            {' '}
-                            Skills{' '}
+                        <a class="hover:text-secondary" href="#skills" title="Go to Skills">
+                            Skills
                         </a>
                     </li>
                     <li>
@@ -26,7 +24,6 @@ export default function Header() {
                             href="https://notes.jamesdurban.com"
                             title="Go to my Digital Garden"
                         >
-                            {' '}
                             Digital Garden
                         </a>
                     </li>

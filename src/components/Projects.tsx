@@ -24,11 +24,11 @@ export default function Projects() {
         <section id="projects" class="section justify-between">
             <section class="w-full">
                 <h2 class="section-title">Projects</h2>
-                <p class="section-paragraph text-quaternary">
+                <p class="section-paragraph">
                     I have built many projects during my professional and hobbyist time as a software engineer ranging
                     from fullstack bespoke web applications to low level mathematical libraries.
                 </p>
-                <div class="grid grid-cols-1 gap-8 mt-6;">
+                <div class="grid grid-cols-1 gap-8 mt-6 text-quaternary">
                     <ProjectCard
                         title="Panda"
                         image="https://previews.123rf.com/images/nadger/nadger1110/nadger111000008/10923495-project-planning.jpg"
