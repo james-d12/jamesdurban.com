@@ -60,7 +60,7 @@ export default function Hero() {
                         <a
                             href="#projects"
                             title="Go to projects"
-                            class="bg-secondary hover:text-primary text-white font-bold text-xl mt-8 py-3 px-8"
+                            class="bg-secondary rounded hover:text-primary text-white font-bold text-xl mt-8 py-3 px-8"
                         >
                             My Projects <i class="fa-solid fa-arrow-down fa-lg"></i>
                         </a>

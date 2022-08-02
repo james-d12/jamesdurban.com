@@ -39,6 +39,10 @@ body {
     @apply text-white text-4xl;
 }
 
+.footer-social {
+    @apply text-white text-2xl m-4;
+}
+
 .hero-social:hover {
     transform: scale(1.15);
 }
