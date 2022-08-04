@@ -11,13 +11,13 @@ export default function Header() {
                 </div>
                 <ol class="header-list">
                     <li>
-                        <a class="hover:text-secondary" href="#projects" title="Go to projects">
-                            Projects
+                        <a class="hover:text-secondary" href="#skills" title="Go to Skills">
+                            Skills
                         </a>
                     </li>
                     <li>
-                        <a class="hover:text-secondary" href="#skills" title="Go to Skills">
-                            Skills
+                        <a class="hover:text-secondary" href="#projects" title="Go to projects">
+                            Projects
                         </a>
                     </li>
                     <li>
