@@ -46,6 +46,15 @@ export default function Hero() {
                         >
                             <i class="fa-brands fa-gitlab fa-lg"></i>
                         </a>
+                        <a
+                            id="Email Footer Link"
+                            class="hero-social"
+                            title="Email"
+                            aria-label="Email"
+                            href="mailto:james_d02@protonmail.com"
+                        >
+                            <i class="fa-solid fa-square-envelope fa-lg"></i>
+                        </a>
                     </div>
                     <div class="flex justify-left align-items-left">
                         <a
