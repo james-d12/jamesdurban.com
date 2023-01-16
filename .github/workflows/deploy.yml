@@ -61,5 +61,3 @@ jobs:
                   port: ${{ secrets.PORT }}
                   source: "./dist/*"
                   target: "/var/www/jamesdurban.com"
-                  strip_components: 1
-                  rm: true 
