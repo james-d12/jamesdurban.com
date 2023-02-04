@@ -11,6 +11,7 @@ import RustImage from '../assets/icons/rust.svg'
 import TypeScriptImage from '../assets/icons/typescript.svg'
 import PowerShellImage from '../assets/icons/powershell.svg'
 import MUIImage from '../assets/icons/mui.svg'
+import CSharpImage from "../assets/icons/csharp.svg"
 
 interface SkillIconProps {
     src: string
@@ -36,21 +37,42 @@ export default function Skills() {
                     non exhaustive list of my most used technologies.
                 </p>
 
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mt-6">
-                    <SkillIcon title="React" src={ReactImage} />
-                    <SkillIcon title="C++" src={CPPImage} />
-                    <SkillIcon title="CSS3" src={CSS3Image} />
-                    <SkillIcon title="Git" src={GitImage} />
-                    <SkillIcon title="GitHub" src={GitHubImage} />
-                    <SkillIcon title="HTML5" src={HTML5Image} />
-                    <SkillIcon title="JavaScript" src={JavaScriptImage} />
-                    <SkillIcon title="Node.js" src={NodeJSImage} />
-                    <SkillIcon title="Python" src={PythonImage} />
-                    <SkillIcon title="Rust" src={RustImage} />
-                    <SkillIcon title="TypeScript" src={TypeScriptImage} />
-                    <SkillIcon title="PowerShell" src={PowerShellImage} />
-                    <SkillIcon title="MUI" src={MUIImage} />
+                <div class="grid grid-rows-3 gap-8 mt-6">
+                    <div>
+                        <h3 class="text-3xl text-center text-bold underline">Languages</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mt-6">
+                            <SkillIcon title="TypeScript" src={TypeScriptImage} />
+                            <SkillIcon title="JavaScript" src={JavaScriptImage} />
+                            <SkillIcon title="Node.js" src={NodeJSImage} />
+                            <SkillIcon title="PowerShell" src={PowerShellImage} />
+                            <SkillIcon title="CSS3" src={CSS3Image} />
+                            <SkillIcon title="HTML5" src={HTML5Image} />
+                            <SkillIcon title="C++" src={CPPImage} />
+                            <SkillIcon title="Python" src={PythonImage} />
+                            <SkillIcon title="Rust" src={RustImage} />
+                            <SkillIcon title="C#" src={CSharpImage} />
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-3xl text-center text-bold underline">Frameworks / Libraries</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mt-6">
+                            <SkillIcon title="React" src={ReactImage} />
+                            <SkillIcon title="MUI" src={MUIImage} />
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-3xl text-center text-bold underline">Tools</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mt-6">
+                            <SkillIcon title="Git" src={GitImage} />
+                            <SkillIcon title="GitHub" src={GitHubImage} />
+                        </div>
+                    </div>
+
                 </div>
+
             </section>
         </section>
     )

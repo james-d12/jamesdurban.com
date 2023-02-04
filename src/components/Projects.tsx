@@ -17,7 +17,7 @@ export function ProjectSkillList({ skills }: ProjectSkillListProps) {
         <div class="pt-4">
             <For each={skills}>
                 {(skill) => (
-                    <span class="inline-block bg-secondary rounded px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                    <span class="inline-block bg-secondary rounded px-3 py-1 text-sm font-bold text-primary mr-2 mb-2">
                         {skill}
                     </span>
                 )}
@@ -41,30 +41,26 @@ export default function Projects() {
                             <h1 class="text-xl font-bold"> Overview </h1>
                             <p class="mt-2">
                                 A budget planning tool to assist the finance team and directors in creating, reviewing
-                                and managing budgets across all sectors of the business. This was used internally within
-                                the business.
+                                and managing budgets across all sectors of the business.
                             </p>
                             <ul class="list-disc mx-5 mt-2">
                                 <li>Built with React.js and Material UI.</li>
-                                <li>Featured fully functioning REST API with database integration.</li>
+                                <li>REST API backend built using Express.js & TypeScript</li>
+                                <li>Database designed and implemented using Prisma.io</li>
                                 <li>API testing using Jest and Supertest.</li>
                                 <li>Integration tests using GitHub Actions</li>
                             </ul>
+                            <h1 class="mt-2 text-xl font-bold"> How was it built </h1>
                             <p class="mt-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
+                                Panda was designed using the agile methodology and as a result, I worked in sprints of 4 weeks to deliver key features each month.
                             </p>
                             <ProjectSkillList
-                                skills={['React.js', 'Material UI', 'TypeScript', 'REST API', 'Sequelize', 'Sqlite']}
+                                skills={['React.js', 'Material UI', 'TypeScript', 'GitHub Actions', 'Prisma.io', 'SQLITE', 'REST API', 'Sequelize']}
                             />
                         </div>
                     </ProjectCard>
 
-                    <ProjectCard title="Sales Order Book" image={SalesOrderBookImage} imageAlt="Sales Order Book">
+                    <ProjectCard title="Sales Order Book" image={SalesOrderBookImage} imageAlt="Sales Order Book" flip={true}>
                         <div class="overflow-hidden">
                             <h1 class="text-xl font-bold"> Overview </h1>
                             <p class="mt-2">
@@ -76,36 +72,10 @@ export default function Projects() {
                                 <li>Featured fully functioning REST API with database integration.</li>
                             </ul>
                             <p class="mt-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
-                            <ProjectSkillList
-                                skills={['React.js', 'Material UI', 'TypeScript', 'REST API', 'Sequelize', 'Sqlite']}
-                            />
-                        </div>
-                    </ProjectCard>
 
-                    <ProjectCard title="HR Management Tool" image={HRManagementToolImage} imageAlt="HR Management Tool">
-                        <div class="overflow-hidden">
-                            <h1 class="text-xl font-bold"> Overview </h1>
-                            <p class="mt-2">
-                                An HR management system used by employees to track and manage their goals and reviews
-                                for the current year.
-                            </p>
-                            <p class="mt-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
                             </p>
                             <ProjectSkillList
-                                skills={['React.js', 'Material UI', 'TypeScript', 'REST API', 'Sequelize', 'Sqlite']}
+                                skills={['Bootstrap', 'Handlebars', 'Express.js', 'Node.js', 'JavaScript', 'TypeScript', 'SQLITE', 'Sequelize']}
                             />
                         </div>
                     </ProjectCard>
@@ -115,30 +85,20 @@ export default function Projects() {
                             <h1 class="text-xl font-bold"> Overview </h1>
                             <p class="mt-2">A general purpose mathematical library written in C++.</p>
                             <p class="mt-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
+
                             </p>
                             <ProjectSkillList
-                                skills={['React.js', 'Material UI', 'TypeScript', 'REST API', 'Sequelize', 'Sqlite']}
+                                skills={['C++', "Catch2", "CMake", "Clang Tools", "GitHub Actions"]}
                             />
                         </div>
                     </ProjectCard>
 
-                    <ProjectCard title="APM" image={ApmImage} imageAlt="APM">
+                    <ProjectCard title="APM" image={ApmImage} imageAlt="APM" flip={true}>
                         <div class="overflow-hidden">
                             <h1 class="text-xl font-bold"> Overview </h1>
                             <p class="mt-2">A universal package management system written in Rust.</p>
                             <p class="mt-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
+
                             </p>
                             <ProjectSkillList
                                 skills={['React.js', 'Material UI', 'TypeScript', 'REST API', 'Sequelize', 'Sqlite']}
@@ -151,12 +111,7 @@ export default function Projects() {
                             <h1 class="text-xl font-bold"> Overview </h1>
                             <p class="mt-2">Documentation markdown generator written in Python.</p>
                             <p class="mt-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
+
                             </p>
                             <ProjectSkillList
                                 skills={['React.js', 'Material UI', 'TypeScript', 'REST API', 'Sequelize', 'Sqlite']}
