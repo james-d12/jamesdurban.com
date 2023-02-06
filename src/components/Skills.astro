@@ -1,0 +1,47 @@
+---
+import ReactImage from '/assets/icons/react.svg'
+import CPPImage from '/assets/icons/cpp.svg'
+import CSS3Image from '/assets/icons/css3.svg'
+import GitImage from '/assets/icons/git.svg'
+import GitHubImage from '/assets/icons/github.svg'
+import HTML5Image from '/assets/icons/html5.svg'
+import JavaScriptImage from '/assets/icons/javascript.svg'
+import NodeJSImage from '/assets/icons/nodejs.svg'
+import PythonImage from '/assets/icons/python.svg'
+import RustImage from '/assets/icons/rust.svg'
+import TypeScriptImage from '/assets/icons/typescript.svg'
+import PowerShellImage from '/assets/icons/powershell.svg'
+import MUIImage from '/assets/icons/mui.svg'
+import CSharpImage from "/assets/icons/csharp.svg"
+
+import SkillIcon from "./SkillIcon.astro";
+---
+<section id="skills" class="section justify-between">
+    <section class="w-full">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-paragraph text-quaternary">
+            I have professional and hobbyist experience in a large variety of tools and languages. Below is a
+            non exhaustive list of my most used technologies.
+        </p>
+
+        <div class="grid grid-rows-1 gap-8 mt-6 border border-gray-800 rounded-3xl p-4 pt-12 pb-12">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+                <SkillIcon title="TypeScript" src={TypeScriptImage} />
+                <SkillIcon title="JavaScript" src={JavaScriptImage} />
+                <SkillIcon title="Node.js" src={NodeJSImage} />
+                <SkillIcon title="PowerShell" src={PowerShellImage} />
+                <SkillIcon title="CSS3" src={CSS3Image} />
+                <SkillIcon title="HTML5" src={HTML5Image} />
+                <SkillIcon title="C++" src={CPPImage} />
+                <SkillIcon title="Python" src={PythonImage} />
+                <SkillIcon title="Rust" src={RustImage} />
+                <SkillIcon title="C#" src={CSharpImage} />
+                <SkillIcon title="React" src={ReactImage} />
+                <SkillIcon title="MUI" src={MUIImage} />
+                <SkillIcon title="Git" src={GitImage} />
+                <SkillIcon title="GitHub" src={GitHubImage} />
+            </div>
+        </div>
+
+    </section>
+</section>
