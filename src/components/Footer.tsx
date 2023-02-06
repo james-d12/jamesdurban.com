@@ -46,7 +46,7 @@ export default function Footer() {
                 </a>
             </div>
             <div class="text-center text-white p-4 bg-tertiary text-xs md:text-sm lg:text-lg">
-                © 2022 Copyright:<a href="https://jamesdurban.com/"> James Durban</a>
+                © {new Date().getFullYear()} Copyright:<a href="https://jamesdurban.com/"> James Durban</a>
             </div>
         </footer>
     )
