@@ -8,19 +8,6 @@ body {
   @apply bg-primary text-white font-poppins;
 }
 
-.backdrop-blur {
-  background-color: rgba(bg-theme, 0.9);
-}
-
-.header-list {
-  list-style-type: decimal-leading-zero;
-  @apply hidden md:flex space-x-12 lg:space-x-24 items-center text-xl;
-}
-
-.header-list li::marker {
-  @apply text-secondary;
-}
-
 .hero {
   @apply container flex justify-between items-center mx-auto px-8 lg:px-24 w-full h-screen;
 }
@@ -33,18 +20,8 @@ body {
   @apply text-4xl md:text-6xl lg:text-7xl font-bold my-2;
 }
 
-.hero-social {
-  transition: all;
-  transition-duration: 250ms;
-  @apply text-white text-4xl;
-}
-
 .footer-social {
   @apply text-white text-2xl m-4;
-}
-
-.hero-social:hover {
-  transform: scale(1.15);
 }
 
 .section {

@@ -44,3 +44,18 @@
         </div>
     </div>
 </header>
+
+<style>
+    .backdrop-blur {
+        background-color: rgba(bg-theme, 0.9);
+    }
+
+    .header-list {
+        list-style-type: decimal-leading-zero;
+        @apply hidden md:flex space-x-12 lg:space-x-24 items-center text-xl;
+    }
+
+    .header-list li::marker {
+        @apply text-secondary;
+    }
+</style>

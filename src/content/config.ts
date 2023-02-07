@@ -7,9 +7,9 @@ export const collections = {
       description: z.string(),
       github: z.string().optional(),
       publishDate: z.coerce.date(),
-      tags: z.array(z.string()),
+      skills: z.array(z.string()),
       img: z.string(),
-      img_alt: z.string().optional(),
+      img_alt: z.string(),
     }),
   }),
 };
