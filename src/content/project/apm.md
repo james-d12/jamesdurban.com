@@ -12,4 +12,6 @@ skills:
 
 # Overview
 
+Apm is a command line tool made in Rust that checks the current package management system used and wraps them in a common interface. It's aim is to make managing packages the same on all operating systems.
+
 # How was it built?
