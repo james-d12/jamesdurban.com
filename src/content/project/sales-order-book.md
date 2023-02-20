@@ -1,6 +1,6 @@
 ---
 title: Sales Order Book
-publishDate: 2019-12-01 00:00:00
+publishDate: 2023-04-01 00:00:00
 img: /assets/stock-1.jpg
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
@@ -15,6 +15,7 @@ skills:
   - Prisma.io
   - SQLITE
   - REST API
+github: private
 ---
 
 # Overview
