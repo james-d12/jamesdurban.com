@@ -20,10 +20,6 @@ body {
   @apply text-4xl md:text-6xl lg:text-7xl font-bold my-2;
 }
 
-.footer-social {
-  @apply text-white text-2xl m-4;
-}
-
 .section {
   @apply container p-28 mb-12 flex items-center mx-auto px-4 lg:px-24 w-full;
 }

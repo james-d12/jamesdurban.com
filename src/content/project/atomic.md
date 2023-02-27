@@ -3,9 +3,6 @@ title: Atomic
 publishDate: 2023-02-01 00:00:00
 img: /assets/stock-3.jpg
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
-description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
 skills:
   - C++
   - Catch2
@@ -20,4 +17,5 @@ github: https://github.com/james-d12/Atomic
 Atomic is a mathematical library that focuses on providing generic matrix and vector data structures with the accompanying calculations to go with it. It was built using C++ and CMake and attempts to be cross compatible with operating systems and C++ standards.
 
 # How was it built?
+
 It was built using C++ and CMake as the main build tool system.

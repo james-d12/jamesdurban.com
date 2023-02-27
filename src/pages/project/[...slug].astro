@@ -23,28 +23,28 @@ const { Content } = await entry.render();
 ---
 <ProjectLayout>
 	<section class="section">
-		<section class="w-full">
-			<div class="border-b-2 border-gray-800">
-				<a href="/project/" class="text-lg underline"> <i class="fa-solid fa-arrow-left"/>{" "}Projects </a>
-				<h2 class="text-4xl md:text-5xl font-bold px-1 mt-2 mb-6;">{entry.data.title}</h2>
-				<ProjectSkillList skills={entry.data.skills}/>
-				<p class="max-w-4xl text-lg">{entry.data.description}</p>
-			</div>
+		<div class="project-main">
+			<a class="hover:text-secondary underline text-lg" href="/"> Home</a>
+			{">"}
+			<a class="hover:text-secondary underline text-lg" href="/project/">Projects </a>
+			<h2 class="text-6xl font-bold">{entry.data.title}</h2>
+			<ProjectSkillList skills={entry.data.skills}/>
 			<div class="content">
 				{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
 				<Content/>
 			</div>
-		</section>
+		</div>
 	</section>
 </ProjectLayout>
 
 <style>
-	.content {
-		max-width: 70ch;
+	.project-main {
+		max-width: 65ch;
 		margin-inline: auto;
 	}
 
 	.content > :global(* + *) {
+		@apply text-quaternary;
 		margin-top: 1rem;
 	}
 
@@ -57,24 +57,28 @@ const { Content } = await entry.render();
 	.content :global(h3),
 	.content :global(h4),
 	.content :global(h5) {
-		@apply text-2xl font-bold;
+		@apply text-2xl font-bold text-white;
 		margin: 1.5rem 0;
 	}
 
+	.content :global(strong) {
+		@apply text-secondary
+	}
+
 	.content :global(h1) {
-		@apply text-5xl
+		@apply text-4xl md:text-5xl
 	}
 
 	.content :global(h2) {
-		@apply text-4xl
+		@apply text-3xl md:text-4xl
 	}
 
 	.content :global(h3) {
-		@apply text-3xl
+		@apply text-2xl md:text-3xl
 	}
 
 	.content :global(h4) {
-		@apply text-2xl
+		@apply text-xl md:text-2xl
 	}
 
 
