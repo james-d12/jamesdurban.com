@@ -11,4 +11,4 @@ github: private
 
 # Overview
 
-The Sales Order Book is an internal website that was developed during my time at **Scott Brownrigg**.
+The Sales Order Book is an internal website that was developed during my time at [**Scott Brownrigg**](https://scottbrownrigg.com).

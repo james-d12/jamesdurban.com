@@ -1,0 +1,24 @@
+---
+interface Props {
+  title: string;
+  slug: string;
+}
+
+const { title, slug } = Astro.props;
+---
+
+<a class="blog-card" title={`Go to ${title}.`} href={`/blog/${slug}`}>
+  <h3 class="bg-primary rounded-2xl absolute text-xl text-white">{title}</h3>
+</a>
+
+<style>
+  .blog-card {
+    transition: all;
+    transition-duration: 75ms;
+    @apply p-1 relative text-white text-4xl;
+  }
+
+  .blog-card:hover h3 {
+    @apply text-secondary;
+  }
+</style>

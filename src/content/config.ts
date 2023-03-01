@@ -11,4 +11,10 @@ export const collections = {
       img_alt: z.string(),
     }),
   }),
+  blog: defineCollection({
+    schema: z.object({
+      title: z.string(),
+      publishDate: z.coerce.date(),
+    }),
+  }),
 };
