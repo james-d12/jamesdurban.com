@@ -23,7 +23,7 @@ When the project initially began, I used tools such as [DBDesigner.Net](https://
 
 In the beginning, the project started more unstructured as we began the process towards a prototype / skeleton of what the web application would turn out to be. Once the shape and vision of the website was more set in stone we moved towards an agile development process where every 4 - 8 weeks we released features and cycled between bug fixes and features.
 
-Panda was separated into 2 modules the backend and the frontend.
+Panda was separated into 2 modules the backend and the frontend. The backend focused on containing the business logic, connecting to external databases and providing a rest api for allowing the frontend to perform actions.
 
 ## Backend
 
@@ -49,3 +49,7 @@ Panda was separated into 2 modules the backend and the frontend.
 # What big challenges did I overcome?
 
 There were a lot of big challenges that propped up during the design and development stages of Panda.
+
+## Database
+
+One of these challenges involved the design of the database for storing tabular information such as Cells, Rows and Columns. The first and still in use approach that was used was the following database design.
