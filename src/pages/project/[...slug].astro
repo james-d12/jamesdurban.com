@@ -1,6 +1,6 @@
 ---
 import "../../styles/content.css";
-import { CollectionEntry, getCollection } from "astro:content";
+import { type CollectionEntry, getCollection } from "astro:content";
 import ProjectLayout from "../../layouts/ProjectLayout.astro";
 import ProjectSkillList from "../../components/ProjectSkillList.astro";
 
@@ -26,9 +26,9 @@ const { Content } = await entry.render();
 <ProjectLayout>
   <section class="section">
     <div class="content-container">
-      <a class="hover:text-secondary underline text-lg" href="/"> Home</a>
+      <a class="hover:text-secondary underline text-lg pr-2" href="/"> Home</a>
       {">"}
-      <a class="hover:text-secondary underline text-lg" href="/project/"
+      <a class="hover:text-secondary underline text-lg pl-2" href="/project/"
         >Projects
       </a>
       <h2 class="mt-2 text-6xl font-bold">{entry.data.title}</h2>
